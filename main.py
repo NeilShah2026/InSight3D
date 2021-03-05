@@ -49,8 +49,12 @@ async def on_message(message):
     await message.channel.send('https://insight3d.tech/blog')
 
 
-    if message.content.startswith("!creator"):
-     await message.channel.send('@Neil ')
+  if message.content.startswith("!creators"):
+    await message.channel.send('@Neil Shah #6469 & MehoB #1483')
+
+  if message.content.startswith('!repo'):
+    await message.channel.send('Ok, Here is The Link To My GitHub Repo: ')
+    await message.channel.send('https://github.com/NeilShah2026/InSight3D')
 
     
   
