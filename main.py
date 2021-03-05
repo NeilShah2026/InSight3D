@@ -49,8 +49,8 @@ async def on_message(message):
     await message.channel.send('https://insight3d.tech/blog')
 
 
-    if message.content.startswith("!help"):
-      await message.channel.send
+    if message.content.startswith("!creator"):
+     await message.channel.send('@Neil ')
 
     
   
