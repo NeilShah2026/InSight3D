@@ -4,8 +4,6 @@ import os
 import random
 from keep_alive import keep_alive
 import pyjokes
-#test
-#test2
 
 # Start Discord Client
 client = discord.Client()
@@ -57,7 +55,7 @@ async def on_message(message):
 
   if message.content.startswith('!repo'):
     await message.channel.send('Ok, Here is The Link To My GitHub Repo: ')
-    await message.channel.send('https://github.com/NeilShah2026/InSight3D')
+    await message.channel.send('https://github.com/InSight3D/InSight3D-Discord-Bot')
   
   if message.content.startswith('!idea'):
     await message.channel.send('Here Is The Link To The Idea Sheet: ')
