@@ -58,6 +58,14 @@ async def on_message(message):
   if message.content.startswith('!repo'):
     await message.channel.send('Ok, Here is The Link To My GitHub Repo: ')
     await message.channel.send('https://github.com/NeilShah2026/InSight3D')
+  
+  if message.content.startswith('!idea'):
+    await message.channel.send('Here Is The Link To The Idea Sheet: ')
+    await message.channel.send('https://docs.google.com/spreadsheets/d/1HHQMCAI5Cg4ul-GSQYx6t9xvcXBz8LBN0wKKHqi4h3E/edit?usp=sharing')
+    
+  if message.content.startswith('!test'):
+    #This Does Nothing For Now, Just As A Place Holder
+    await message.channel.send('All Systems Are Online')
 
     
   
