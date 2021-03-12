@@ -9,7 +9,6 @@ import pyjokes
 client = discord.Client()
 
 #Varuables
-presence = discord.Activity(type=discord.ActivityType.watching, name='For !support')
 live = print('We Have Logged In As {0.user}'.format(client))
 
 
@@ -17,7 +16,7 @@ live = print('We Have Logged In As {0.user}'.format(client))
 # Discord Bot If Online Chck, See #Varuabe For More Info
 @client.event
 async def on_ready():
-  presence
+  presence = discord.Activity(type=discord.ActivityType.watching, name='For !support')
   live
 
 #Start Client Check
